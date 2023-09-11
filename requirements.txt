@@ -11,8 +11,12 @@ psutil==5.9.5
 realesrgan==0.3.0
 tensorflow==2.13.0
 tqdm==4.66.1
+
+### CPU
+# onnxruntime==1.15.1
+
+### GPU
 onnxruntime-gpu==1.15.1
 nvidia-cudnn-cu11==8.6.0.163
 nvidia-cuda-cupti-cu11==11.7.*
 nvidia-nccl-cu11==2.*
-
