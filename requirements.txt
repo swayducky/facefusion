@@ -1,3 +1,6 @@
+###### added by sway
+--extra-index-url https://download.pytorch.org/whl/cu117
+
 gfpgan==1.3.8
 gradio==3.42.0
 insightface==0.7.3
@@ -12,6 +15,8 @@ realesrgan==0.3.0
 tensorflow==2.13.0
 tqdm==4.66.1
 
+####### Added by sway
+
 ### CPU
 # onnxruntime==1.15.1
 
@@ -20,3 +25,4 @@ onnxruntime-gpu==1.15.1
 nvidia-cudnn-cu11==8.6.0.163
 nvidia-cuda-cupti-cu11==11.7.*
 nvidia-nccl-cu11==2.*
+torch==2.0.1+cu117
