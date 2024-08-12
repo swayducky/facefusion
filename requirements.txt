@@ -5,7 +5,7 @@ filetype==1.2.0
 gradio==3.50.2
 numpy==1.26.4
 onnx==1.16.0
-onnxruntime==1.17.3
+# onnxruntime==1.17.3  # Removed by sway
 opencv-python==4.9.0.80
 psutil==5.9.8
 tqdm==4.66.4
@@ -16,9 +16,10 @@ scipy==1.13.0
 # onnxruntime==1.15.1
 
 ### GPU
-onnxruntime-gpu==1.18.1  # upgrade this
-nvidia-cudnn-cu11==9.3.0.75  # upgrade this
+onnxruntime-gpu==1.15.1 # don't touch
+nvidia-cudnn-cu11==8.6.0.163  # don't touch
 nvidia-cuda-cupti-cu11==11.7.* # no need to touch -- already loose
-nvidia-nccl-cu11==2.* # no need to touch -- already lose
-torch==2.0.1+cu117 # no need to touch (probably)
+nvidia-nccl-cu11==2.* # no need to touch -- already loose
+torch==2.0.1+cu117 # don't touch
 
+gputil==1.4.0
