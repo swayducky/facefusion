@@ -1,3 +1,6 @@
+###### added by sway
+--extra-index-url https://download.pytorch.org/whl/cu117
+
 filetype==1.2.0
 gradio==3.50.2
 numpy==1.26.4
@@ -7,3 +10,15 @@ opencv-python==4.9.0.80
 psutil==5.9.8
 tqdm==4.66.4
 scipy==1.13.0
+
+
+### CPU
+# onnxruntime==1.15.1
+
+### GPU
+onnxruntime-gpu==1.18.1  # upgrade this
+nvidia-cudnn-cu11==9.3.0.75  # upgrade this
+nvidia-cuda-cupti-cu11==11.7.* # no need to touch -- already loose
+nvidia-nccl-cu11==2.* # no need to touch -- already lose
+torch==2.0.1+cu117 # no need to touch (probably)
+
